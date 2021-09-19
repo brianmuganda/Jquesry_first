@@ -1,12 +1,12 @@
-jQuery(document).ready(function(){
-    jQuery('h1').click(function(){
+$(document).ready(function(){
+    $('h1').click(function(){
         alert("This is a heading tag");
         alert("I told you, THIS IS A HEADER!")
     });
-    jQuery('p').click(function(){
+    $('p').click(function(){
         alert("This is a paragrap")
     });
-    jQuery('img').click(function(){
+    $('img').click(function(){
         alert("This is an image")
     });
 });
