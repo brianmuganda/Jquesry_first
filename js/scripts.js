@@ -4,7 +4,7 @@ $(document).ready(function(){
         alert("I told you, THIS IS A HEADER!")
     });
     $('p').click(function(){
-        alert("This is a paragrap")
+        alert("This is a paragraph")
     });
     $('img').click(function(){
         alert("This is an image")
